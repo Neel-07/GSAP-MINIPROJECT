@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: local('Gilroy-Regular'), url(./fonts/Gilroy-Regular.ttf) format('truetype')
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Regular';
+    color:azure;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    background-color: rgb(9, 9, 9);
+}
+
+#main{
+    height:100%;
+    width:100%;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:4rem;
+    margin-left: 1.5rem;
+    text-transform: uppercase;
+    
+}
+#nav h3{
+    font-weight: 400;
+}
+#socials{
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    gap:3rem;
+    margin-right: 20px;
+}
+
+#center{
+  height:60%;
+}
+#center h1{
+    width:80%;
+    font-size:11rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: -10px;
+    line-height: 0.8;
+    margin-left: 10%;
+    position:relative;
+    z-index: 9;
+    
+}
+#center h1:nth-child(1){
+    margin-top: 170px;
+}
+#center h1:nth-child(2){
+    text-align: right;
+}
+#center h1:nth-child(3){
+    margin-left:200px;
+    text-align: center;
+}
+
+#center img{
+    height:350px;
+    width:220px;
+    position:absolute;
+    top:15%;
+    left:45%;
+}
+
+#img1{
+    rotate:5deg;
+}
+#img2{
+    rotate:10deg;
+}
+
+#footer{
+    display:flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin:2rem;
+    
+}
+#footer h3{
+    font-weight: 400;
+}
+#footer h3:nth-child(2){
+    width:20%;
+    margin-right: 2rem;
+    text-align: center;
+    line-height: 0.9;
+}
